@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>20% TIP CALCULATOR</h1>
+      </div>
+      <div class="amountSection">
+        <label for="bill"
+          ><p>Enter Bill Amount:</p>
+          <em
+            ><p style="font-size: 14px">
+              (Numerical Characters Only, E.g) 25.00
+            </p>
+          </em>
+        </label>
+        <input type="number" name="bill" id="bill">
+        <input type="button" value="Calculate" id='btn'>
+      </div>
+      <div class="tipAmount">
+        <div class="poundSign">Tip : £</i></div>
+        <div class="tipNumber"></div>
+      </div>
+      <div class="totalBill">
+        <div class="poundSign">Total Amount to Pay : £</div>
+        <div class="totalNumber"></div>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
